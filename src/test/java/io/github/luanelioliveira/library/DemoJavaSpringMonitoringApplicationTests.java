@@ -1,4 +1,4 @@
-package io.github.luanelioliveira.monitoring;
+package io.github.luanelioliveira.library;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -7,7 +7,5 @@ import org.springframework.boot.test.context.SpringBootTest;
 class DemoJavaSpringMonitoringApplicationTests {
 
   @Test
-  void contextLoads() {
-  }
-
+  void contextLoads() {}
 }
