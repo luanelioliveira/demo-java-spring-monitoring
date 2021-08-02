@@ -8,7 +8,7 @@ run:
 	mvn -f pom.xml spring-boot:run
 
 compose-up:
-	docker-compose up --build -D
+	docker-compose up -d
 
 lint:
 	mvn fmt:format -f pom.xml
